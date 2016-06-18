@@ -1,5 +1,5 @@
 # distributed-system
-Just another distributed system...
+How to Build Resilient Distributed Systems
 
 ## Motivation
 
@@ -19,7 +19,7 @@ The following techologies will be used:
 2. RabbitMQ is used as a communication layer
 3. Spring Cloud Netflix is used for implementing Service Discovery, Curcuit Breaker etc
 4. Docker is used for containerization 
-5. Mysql, MongoDB, Cassandra are used as a persistence level
+5. Mysql, MongoDB, Cassandra etc are used as a persistence level
 
 ## Testing/Monitoring/Logging
 
