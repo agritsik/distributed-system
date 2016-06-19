@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/agritsik/distributed-system.svg?branch=master)](https://travis-ci.org/agritsik/distributed-system)
+
 # distributed-system
 How to Build Resilient Distributed Systems
 
