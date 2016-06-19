@@ -5,12 +5,18 @@ How to Build Resilient Distributed Systems
 
 ## Motivation
 
-In order to demonstrate how to:
+In order to demonstrate:
+
+1. How to work with legacy systems.
+2. How to process a huge amount of events
+
+Techical goals:
 
 1. implement microservices
 2. implement patterns for resilient distributed systems
-3. use pub/sub and request/reply communication models
-4. compare performance of different data storages
+3. implement synchronious communication using REST (request/response)
+4. implement asynchronious communication using AMQP (pub/sub and request/reply)
+5. implement different data storages (SQL and NoSQL) and compare their performance
 
 
 ## Tooling:
