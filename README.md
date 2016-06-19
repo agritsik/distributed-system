@@ -16,7 +16,7 @@ Techical goals:
 2. implement patterns for resilient distributed systems
 3. implement synchronious communication using REST (request/response)
 4. implement asynchronious communication using AMQP (pub/sub and request/reply)
-5. implement different data storages (SQL and NoSQL) and compare their performance
+5. implement event store using different data storages (SQL and NoSQL) and compare their performance
 
 
 ## Tooling:
