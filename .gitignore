@@ -12,4 +12,3 @@ target/
 # tools
 .idea
 *.iml
-*.mvn
