@@ -1,0 +1,9 @@
+server:
+  port:
+    8762
+spring:
+  application:
+    name: monitor
+turbine:
+  appConfig: legacy-client
+  clusterNameExpression: "'default'"

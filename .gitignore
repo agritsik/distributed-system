@@ -12,3 +12,4 @@ target/
 # tools
 .idea
 *.iml
+*.DS_Store
