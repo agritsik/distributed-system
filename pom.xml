@@ -9,7 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>gateway</module>
         <module>discovery</module>
+        <module>monitor</module>
         <module>legacy-client-ms</module>
         <module>legacy-rest-ms</module>
     </modules>
