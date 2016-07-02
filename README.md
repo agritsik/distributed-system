@@ -10,12 +10,12 @@ In order to demonstrate:
 1. How to work with legacy systems.
 2. How to process a huge amount of events
 
-Techical goals:
+Technical goals:
 
 1. implement microservices
 2. implement patterns for resilient distributed systems
-3. implement synchronious communication using REST (request/response)
-4. implement asynchronious communication using AMQP (pub/sub and request/reply)
+3. implement synchronous communication using REST (request/response)
+4. implement asynchronous communication using AMQP (pub/sub)
 5. implement event store using different data storages (SQL and NoSQL) and compare their performance
 
 
