@@ -25,7 +25,7 @@ The following techologies will be used:
 
 1. Java and Spring Boot are used for implementing microservices 
 2. RabbitMQ is used as a communication layer
-3. Spring Cloud Netflix is used for implementing Service Discovery, Curcuit Breaker etc
+3. Spring Cloud Netflix is used for implementing Api Gateway, Service Discovery, Circuit Breaker etc
 4. Docker is used for containerization 
 5. Mysql, MongoDB, Cassandra etc are used as a persistence level
 
