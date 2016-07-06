@@ -37,9 +37,9 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>io.codearte.jfairy</groupId>
-			<artifactId>jfairy</artifactId>
-			<version>0.5.3</version>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>0.10</version>
 		</dependency>
 
 		<dependency>

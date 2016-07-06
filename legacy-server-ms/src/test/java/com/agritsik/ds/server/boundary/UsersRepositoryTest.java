@@ -1,5 +1,6 @@
 package com.agritsik.ds.server.boundary;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -10,20 +11,15 @@ import static org.junit.Assert.assertEquals;
 public class UsersRepositoryTest {
 
     @Test
-    public void testInit() throws Exception {
+    public void findAll() throws Exception {
 
-
-        // debug
+        // arrange
         UsersRepository repository = new UsersRepository();
+        repository.find().stream().forEach(System.out::println);
 
-        repository.getAll()
-                .stream()
-                .forEach(System.out::println);
+        // act && assert
+        assertEquals(99, repository.find().size());
 
-        assertEquals(99, repository.getAll().size());
-
-
-    }
-
+    }   
 
 }
