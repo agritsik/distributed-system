@@ -1,0 +1,35 @@
+version: '2'
+services:
+
+  bus:
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+
+  db-mysql:
+    image: mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_DATABASE=es
+
+#  db-mongo:
+#      image: mongo
+#      ports:
+#        - 27017:27017
+#
+#  db-cassandra:
+#    image: cassandra
+#
+#  db-solr:
+#    image: solr
+#    ports:
+#      - 8983:8983
+#
+#  db-elasticsearch:
+#    image: elasticsearch
+#    ports:
+#      - 9200:9200
+#      - 9300:9300
