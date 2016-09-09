@@ -1,5 +1,13 @@
 [![Build Status](https://travis-ci.org/agritsik/distributed-system.svg?branch=master)](https://travis-ci.org/agritsik/distributed-system)
 
+# DEPRECATED!
+The current repo has been split into the following projects:
+1. https://github.com/agritsik/distributed-system-rest 
+2. https://github.com/agritsik/distributed-system-rabbitmq
+
+
+
+
 # distributed-system
 How to Build Resilient Distributed Systems
 
